@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.nav{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #111111;
+}
+.nav img{
+  width: 210px;
+}
+.nav a{
+  margin-right: 5%;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 102, 0);
+  padding: 8px 30px;
+  font-weight: bold;
+  border: 1 px solid  rgb(255, 102, 0);
+  border-radius: 10px;
+}
+
+.middle{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.admin-data-section{
+  flex: 30%;
+  flex-wrap: wrap;
+  padding: 0 2px;
+  max-height: 90vh;
+  padding-top: 20px;
+}
+.admin-data-section img{
+  max-width: 25vw;
+}
+.admin-data-section h1{
+  text-align: end;
+}
+.admin-data-section h3{
+  text-align: end;
+}
+.emplist-section{
+  flex: 70%;
+  flex-wrap: wrap;
+}
+.emplist-section h1{
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  padding-top: 2%;
+}
+.table-container{
+  width: 90%;
+  max-height: 68vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+}
+table{
+  width: 100%;
+}
+table tr{
+  border-bottom: 1px solid  rgb(255, 102, 0);
+}
+table tr th{
+  font-size: 1.25em;
+  padding-bottom: 10px;
+}
+table tr td{
+  text-align: center;
+  font-size: 1.15em;
+  padding: 5px 10px;
+  color: black;
+}
+table tr td img{
+  max-width: 100px;
+}
+table tr td a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(255, 102, 0);
+  padding: 5px 20px;
+  border: 1px solid rgb(255, 102, 0);
+  border-radius: 10px;
+}

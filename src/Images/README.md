@@ -1,0 +1,1 @@
+**Use this dir only for page image contents as example for webpage icons and front end photos
